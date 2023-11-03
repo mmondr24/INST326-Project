@@ -50,6 +50,14 @@ Class TurboTrainer:
 	“ This class will hold the data with the actual definition and terms. After completing the terms, it holds the quiz function for the user to play the game. 
 ”
 
+	def track_points(self):
+		correct = 0
+		incorrect = 0
+		print(“Correct: {correct} \n”)
+		print(“Incorfect: {incorrect} \n”)
+
+
+
 	def take_quiz(self):
 	“ This function is the quiz itself which the user takes after making their flashcards.         The user then has to look at a term and answer with the definition to get a point”
 
@@ -65,10 +73,4 @@ Class TurboTrainer:
 				print(f”So close. Better luck next time!”)
 				incorrect += 1
         
-	def track_points(self):
-		correct = 0
-		incorrect = 0
-		print(“Correct: {correct} \n”)
-		print(“Incorfect: {incorrect} \n”)
-
 
