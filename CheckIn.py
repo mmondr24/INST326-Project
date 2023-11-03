@@ -46,7 +46,7 @@ Class TurboTrainer:
 		def = input(Enter the definition: “)
 		self.add_flashcard(card, def)
 
-Class TurboTrainer:
+
 	“ This class will hold the data with the actual definition and terms. After completing the terms, it holds the quiz function for the user to play the game. 
 ”
 
@@ -65,10 +65,10 @@ Class TurboTrainer:
 				print(f”So close. Better luck next time!”)
 				incorrect += 1
         
-def track_points(self):
-	correct = 0
-	incorrect = 0
-	print(“Correct: {correct} \n”)
-	print(“Incorfect: {incorrect} \n”)
+	def track_points(self):
+		correct = 0
+		incorrect = 0
+		print(“Correct: {correct} \n”)
+		print(“Incorfect: {incorrect} \n”)
 
 
